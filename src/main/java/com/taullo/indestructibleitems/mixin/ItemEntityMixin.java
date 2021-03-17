@@ -1,4 +1,4 @@
-package com.turtlearmymc.blastproofnetherite.mixin;
+package com.taullo.indestructibleitems.mixin;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -13,7 +13,7 @@ public abstract class ItemEntityMixin {
     @Inject(method = "damage(Lnet/minecraft/entity/damage/DamageSource;F)Z", at = @At("HEAD"), cancellable = true)
     protected void damage(DamageSource source, float amount, CallbackInfoReturnable<Boolean> ci) {
         ItemEntity stack = (ItemEntity) (Object) this;
-        if (!stack.getStack().isEmpty() && stack.getStack().getItem().isFireproof() && source.isExplosive()) {
+        if (!stack.getStack().isEmpty()) {
             ci.setReturnValue(false);
             ci.cancel();
         }

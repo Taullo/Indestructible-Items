@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.turtlearmymc.blastproofnetherite.mixin",
+  "package": "com.taullo.indestructibleitems.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "ItemEntityMixin"

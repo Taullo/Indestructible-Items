@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "id": "blastproof_netherite",
+  "id": "indestructible_items",
   "version": "${version}",
-  "name": "Blastproof Netherite",
-  "description": "Prevents Netherite items from being destroyed by explosions.",
+  "name": "Indestructible Items",
+  "description": "Prevents dropped items from being destroyed.",
   "authors": [
-    "TurtleArmyMc"
+    "TurtleArmyMc",
+    "Taullo"
   ],
   "contributors": [],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/blastproof-netherite",
-    "sources": "https://github.com/TurtleArmyMc/Blastproof-Netherite"
+    "sources": "https://github.com/Taullo/Indestructible-Items"
   },
   "license": "LGPL-3.0",
-  "icon": "assets/blastproof_netherite/icon.png",
+  "icon": "assets/indestructible_items/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [],
@@ -21,7 +21,7 @@
     "server": []
   },
   "mixins": [
-    "blastproof_netherite.mixins.json"
+    "indestructible_items.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.10.8"

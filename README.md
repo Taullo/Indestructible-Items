@@ -1,6 +1,3 @@
-# Blastproof Netherite
-A mod that prevents all fireproof items from being destroyed by explosions.
-[Inspired by u/pladica2016's post on r/MinecraftSuggestions.](https://www.reddit.com/r/minecraftsuggestions/comments/js0tkl/)
-
-## Curseforge
-[Curseforge page](https://www.curseforge.com/minecraft/mc-mods/blastproof-netherite)
+# Indestructible Items
+A mod that prevents all dropped items from being destroyed by damage such as lava, explosions, and cacti.
+[Simple fork of TurtleArmyMc's Blastproof Netherite](https://www.curseforge.com/minecraft/mc-mods/blastproof-netherite)
